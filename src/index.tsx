@@ -158,7 +158,7 @@ export default class NotebookRender extends React.PureComponent<Props, State> {
                           <Output output={output} key={index}>
                             <DisplayData>
                               <Media.HTML />
-                              <Media.Image metadata={undefined} />
+                              <Media.Image />
                               <Media.Json />
                               <Media.JavaScript />
                               <Media.LaTeX />
@@ -169,7 +169,7 @@ export default class NotebookRender extends React.PureComponent<Props, State> {
 
                             <ExecuteResult>
                               <Media.HTML />
-                              <Media.Image metadata={undefined} />
+                              <Media.Image />
                               <Media.Json />
                               <Media.JavaScript />
                               <Media.LaTeX />
